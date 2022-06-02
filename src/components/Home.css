@@ -1,0 +1,48 @@
+.hospital{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+
+}
+
+
+
+.division{
+    padding: 50px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.para{
+    margin-top: 80px;
+}
+
+.Alignleft{
+    text-align: start;
+}
+
+
+.signUp{
+    
+    text-align: center;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    
+    padding: 20px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+
+.inlineDisplay{
+    display: inline;
+}

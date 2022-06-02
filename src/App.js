@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './components/pages/Home';
+import Cardiology from './components/pages/Cardiology';
+import Radiology from './components/pages/Radiology';
+import Ambulance from './components/pages/Ambulance';
+import Laboratory from './components/pages/Laboratory';
+import Managers from './components/pages/Managers';
+import Doctors from './components/pages/Doctors';
+import ContactUs from './components/pages/ContactUs';
+import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<Home/>} />
+        <Route path="/lab" exact element={<Laboratory/>} />
+        <Route path="/ambulance" exact element={<Ambulance/>} />
+
+        <Route path="/cardiology" exact element={<Cardiology/>} />
+        <Route path="/radiology" exact element={<Radiology/>} />
+
+        <Route path="/managers" exact element={<Managers/>} />
+        <Route path="/doctors" exact element={<Doctors/>} />
+
+        <Route path="/contactUs" exact element={<ContactUs/>} />
+
+        <Route path="/sign-up" exact element={<SignUp/>} />
+
+      </Routes>
+    </Router>
   );
 }
 
