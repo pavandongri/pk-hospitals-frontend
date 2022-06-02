@@ -10,7 +10,7 @@ function ContactUs(){
                      
                 </div>
                 <div className="para">
-                    <img src={process.env.PUBLIC_URL+"images/telephone.png" } className="ambulance" alt="image"/>
+                    <img src={process.env.PUBLIC_URL+"images/telephone.png" } className="ambulance" alt=""/>
                 </div>
                 <div className="para">
                     <p>

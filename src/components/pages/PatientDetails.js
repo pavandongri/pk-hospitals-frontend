@@ -1,5 +1,5 @@
-import React, {Component, useEffect, useRef} from "react"
-import ReactToPrint, { useReactToPrint } from "react-to-print";
+import React, {useEffect, useRef} from "react"
+import ReactToPrint from "react-to-print";
 
 import "./Patient.css"
 

@@ -12,7 +12,7 @@ function Laboratory(){
                      
                 </div>
                 <div className="para">
-                    <img src={process.env.PUBLIC_URL+"images/lab.jpg" } className="ambulance" alt="image"/>
+                    <img src={process.env.PUBLIC_URL+"images/lab.jpg" } className="ambulance" alt=""/>
                 </div>
                 <div className="para">
                     <p>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import PatientDetails from "./PatientDetails";
 import Info from "../Info";
 

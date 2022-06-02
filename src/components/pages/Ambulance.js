@@ -13,7 +13,7 @@ function Ambulance(){
                      
                 </div>
                 <div className="para">
-                    <img src={process.env.PUBLIC_URL+"images/ambulance.png" } className="ambulance" alt="image"/>
+                    <img src={process.env.PUBLIC_URL+"images/ambulance.png" } className="ambulance" alt=""/>
                 </div>
                 <div className="para">
                     <p>
